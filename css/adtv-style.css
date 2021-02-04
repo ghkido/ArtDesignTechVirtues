@@ -1,0 +1,67 @@
+body { margin: 0; padding: 0; background-color:cadetblue; }
+
+            .OS-container { margin:5% 7% 5% 5%; padding: 3% 4% 2% 3%; background-color:darkcyan; 
+                            display: block; align-content: center; justify-content: center; }
+
+            .IS-container { display: flex; flex-wrap: wrap; justify-content: center;
+                            width: 94%; height: 94%;}
+
+            h1 { font-size: 44px; color: rgb(255, 171, 122); font-weight: 700; line-height: 36px;
+                            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                            text-align: center; font-stretch: extra-expanded; }
+
+            .IS-container div { text-align: center; line-height: 13px; font-size: 15px; display: block;
+                            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; }
+
+            .IS-container div img { width: 150px; height: 150px; margin: 8px; padding: 2px;
+                            background-color: white; margin-right: 8px; z-index: 1; transition: all .6s ease-out; }
+
+            .IS-container div a:hover img { transform: rotate( 3deg); }
+
+            .a-title { visibility: hidden; width: 110px; height: 60px; background-color: lightgreen; color: darkred;
+                            position: absolute; text-align: left; border-radius: 3px; z-index: 2; top: 40%; left: 50%;
+                            padding: 3px; border-color: rgb(255, 171, 122); font-size: 10px; opacity: .8; }
+
+            .imgBx-1 a:hover .a-title { visibility: visible; }
+
+            .d-title { visibility: hidden; width: 110px; height: 60px; background-color: lightgreen; color: darkred;
+                            position: absolute; text-align: left; border-radius: 3px; z-index: 2; top: 40%; right: 50%;
+                            padding: 3px; border-color: rgb(255, 171, 122); font-size: 10px; opacity: .8; }
+
+            .imgBx-2 a:hover .d-title { visibility: visible; }
+
+            .tc-title { visibility: hidden; width: 110px; height: 60px; background-color: lightgreen; color: darkred;
+                            position: absolute; text-align: left; border-radius: 3px; z-index: 2; top: 60%; left: 50%;
+                            padding: 3px; border-color: rgb(255, 171, 122); font-size: 10px; opacity: .8; }
+
+            .imgBx-3 a:hover .tc-title { visibility: visible; }
+
+            .v-title { visibility: hidden; width: 110px; height: 60px; background-color: lightgreen; color: darkred;
+                            position: absolute; text-align: left; border-radius: 3px; z-index: 2; top: 60%; right: 50%;
+                            padding: 3px; border-color: rgb(255, 171, 122); font-size: 10px; opacity: .8; }
+
+            .imgBx-4 a:hover .v-title { visibility: visible; }
+
+            .MyMessage { display: block; justify-content: space-around; font-size: medium;
+                font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; }
+
+            .MyMessage h2 { font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                font-size: x-large; color:rgb(255, 171, 122); font-weight: 600;  text-align: center;}
+
+            .messageBody { display: flex; color: rgb(233, 255, 159); text-align: center;
+                justify-content: space-around; font-size: large; width: minmax(300px, 500px); }
+
+            .myFtr-ul { display: flex; justify-content: space-around; font-size: 18px;
+            list-style: none; font-stretch: condensed; color: darkslategrey;
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            transition: all .3s ease-out;}
+
+            .myFtr-ul a { text-decoration: none; color: darkslategrey; }
+
+            .myFtr-ul a:hover li { transform: rotate(-4deg); color: cadetblue; }
+
+            .myFooter h3 { color:rgb(255, 171, 122) }
+
+            .myFooter { color: rgb(233, 255, 159); font-size: 12px; text-align: center;
+                font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
+            br {line-height: 10px;}

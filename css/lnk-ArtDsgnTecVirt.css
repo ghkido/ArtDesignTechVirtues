@@ -1,0 +1,52 @@
+body { margin: 0; padding: 5px 15px 25px 5px; background-color: rgb(44, 36, 84);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif}
+.container { height: 1000px; }
+.main-1 { 
+    margin: 3%; padding: 1%; background-color:  rgb(255, 234, 220);
+    display: flex; flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 96vw;
+    
+}
+.main-2 {
+    margin: 3%; padding: 1%; background-color: rgb(216, 232, 246);
+    display: flex; flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 96vw;
+
+}
+.main-3 {
+    margin: 3%; padding: 1%; background-color: rgb(238, 246, 218);
+    display: flex; flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 96vw;
+}
+.main-4 {
+    margin: 3%; padding: 1%; background-color: rgb(242, 212, 248);
+    display: flex; flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 96vw;
+}
+.header {
+    display: flex; flex-direction: row; width: 88%; height: 70px;
+    background-color: rgb(44, 36, 84); margin: 1%; padding: 1%;
+    justify-content: space-around; align-items: center;
+}
+.header h1 { color:rgb(250, 240, 156); margin: 0; padding: 0;}
+
+.header img { width: 60px; height: 60px; background-color: white; }
+
+article {display: flex; flex-direction: column; justify-content: center; 
+        align-items: start; margin: 3%; padding: 1%; max-width: 800px;}
+
+article p {font-size: large; margin: 0; padding: 0;}
+
+.footer p { color: rgb(44, 36, 84); font-size: 1rem; }
+
+.extraSpace { display: block; height: 160px; }
+
+.b2home {font-size: medium;}
