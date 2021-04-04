@@ -1,0 +1,217 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: khaki;
+}
+
+.docContainer {
+    display: block;
+    width: 95vw;
+    height: 110vh;
+    background-color: lemonchiffon;
+    margin: 2px;
+    padding: 2px;
+    align-content: center;
+}
+
+.innerContainer {
+    display: block;
+    width: 93vw;
+    height: 100vh;
+    background-color: lemonchiffon;
+    margin: 3px;
+    padding: 3px;
+    align-content: center;
+}
+
+.headingContainer {
+    display: block;
+    width: 90vw;
+    height: 22vh;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    align-content: center;
+}
+
+#imgBgBlue {
+    width: 89vw;
+    height:17vh;
+    position: absolute;
+    top: 0px;
+    opacity: 0;
+    animation-name: transIn;
+    animation-delay: .5s;
+    animation-duration: 5s;
+    animation-iteration-count: 3;
+    animation-fill-mode: forwards;
+}
+
+#imgTitleMiricle {
+    position: absolute;
+    top: 0px;
+    width: 89vw;
+    height: 17vh;
+    overflow: hidden;
+    align-self: center;
+    opacity: 0;
+    animation-name: transIn;
+    animation-delay: 2s;
+    animation-duration: 5s;
+    animation-iteration-count: 3;
+    animation-fill-mode: forwards;
+}
+
+#imgTitleNbrs {
+    width: 89vw;
+    height: 17vh;
+    position: absolute;
+    top: 0px;
+    opacity: 0;
+    animation-name: transIn;
+    animation-delay: 1s;
+    animation-duration: 5s;
+    animation-iteration-count: 4;
+    animation-fill-mode: forwards;
+}        
+
+#imgSunGradient {
+    width: 89vw;
+    height: 17vh;
+    position: absolute;
+    top: 0px;
+    overflow: hidden;
+    opacity: 0;
+    animation-name: transIn2;
+    animation-delay: 3s;
+    animation-duration: 5.1s;
+    animation-iteration-count: 3;
+    animation-fill-mode: forwards;
+}
+
+#imgSunDisk {
+    width: 89vw;
+    height: 17vh;
+    position: absolute;
+    top: 0px;
+    overflow: hidden;
+    opacity: 0;
+    animation-name: transIn2;
+    animation-delay: 3.4s;
+    animation-duration: 4.7s;
+    animation-iteration-count: 2;
+    animation-fill-mode: forwards;
+}
+
+#imgSunYnYg {
+    width: 89vw;
+    height: 17vh;
+    position: absolute;
+    top: 0px;
+    overflow: hidden;
+    opacity: 0;
+    animation-name: transIn2;
+    animation-delay: 3.9s;
+    animation-duration: 4.5s;
+    animation-iteration-count: 2;
+    animation-fill-mode: forwards;
+    /*animation: 3s roTaBox ease  5.1s 3;*/
+}
+
+@keyframes transIn {
+      0% { opacity: 0;}
+     15% { opacity: .4;}
+     25% { opacity: .7;}
+     40% { opacity: .5;}
+     55% { opacity: .8;}
+     70% { opacity: .6;}
+     80% { opacity: .9;}
+     90% { opacity: .7;}
+     95% { opacity: 1;}
+     100% { opacity: 1;}
+}
+
+@keyframes transIn2 {
+      0% { opacity: 0;
+        transform: scale(.8)}
+     15% { opacity: .5;
+        transform: rotate(-8deg);}
+     25% { opacity: .7;}
+     40% { opacity: .6;
+        transform: scale(.9)}
+     55% { opacity: .8;
+        transform: scale(1.3);
+        transform: rotate(16deg);}
+     70% { opacity: .6;}
+     80% { opacity: .4;
+        transform: scale(.85)}
+     90% { opacity: .7;}
+     95% { opacity: 3;}
+     100% { opacity: 0;
+        transform: scale(1)
+        transform: rotate(-8deg);}
+}
+
+/*@keyframes roTaBox {
+    0% { transform: rotate(-5deg); }
+    50% { transform: rotate(10deg); }
+    100% { transform: rotate(-5deg); }
+}*/
+
+.featurArticles {
+    display: flex;
+    /*flex-wrap: wrap;*/
+    flex-flow: wrap;
+    width: 83vw;
+    height: auto;
+    margin: 5px;
+    padding: 4px;
+    font-family: 'Source Sans Pro', 'SansSerif',  sans-serif;
+    animation: featuresIn 3s ease-in 3s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+.featurArticles article h1 {
+    font-family: 'Arial Narrow Bold', 'Swis721 BT', 'Swis721 Cn Bt';
+    line-height: .5; color: rgb(94, 0, 0); font-size: 1.3rem;
+}
+
+.featurArticles article p {
+    font-family: 'Source Sans Pro', 'SansSerif',  sans-serif;
+    line-height: 1.1
+    
+}
+@keyframes featuresIn {
+    0% { opacity: 0; }
+    100% { opacity: 1;}
+}
+}
+
+.featArticle-1 {
+    width: 290px;
+    margin: 0; padding: 0;
+}
+.featArticle-2 {
+    width: 290px;
+    margin: 0; padding: 0;
+}
+.featArticle-3 {
+    width: 290px;
+    margin: 0; padding: 0;
+}
+.featArticle-4 {
+    width: 290px;
+    margin: 0; padding: 0;
+}
+
+.addressCopy {
+    font-family: 'Source Sans Pro', 'SansSerif',  sans-serif;
+    margin: 15 0 0 0; padding: 5 0 0 0; line-height: 1.1;
+    width: 100vw; text-align: center;
+    position: absolute;
+}
+
+.addressCopy a { text-decoration: none; color: green;}
+.addressCopy a:hover { color:goldenrod;}
+.addressCopy a:visited{ color: dimgray;}

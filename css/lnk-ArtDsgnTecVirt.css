@@ -45,8 +45,16 @@ article {display: flex; flex-direction: column; justify-content: center;
 
 article p {font-size: large; margin: 0; padding: 0;}
 
-.footer p { color: rgb(44, 36, 84); font-size: 1rem; }
+.footer address { width: 80vw; text-align: center; color: darkred; font-size: .9rem;}
+
+.footer p { color: rgb(44, 36, 84); font-size: 1rem;}
 
 .extraSpace { display: block; height: 160px; }
 
 .b2home {font-size: medium;}
+
+.footer .linkSites { text-align: center; font-size: medium;}
+
+.footer .linkSites a { text-decoration: none; color: green;}
+.footer .linkSites a:hover { color:goldenrod;}
+.footer .linkSites a:visited{ color: dimgray;}

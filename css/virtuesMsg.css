@@ -1,0 +1,335 @@
+/*Virtues Message Webpage CSS*/
+body {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    position: relative;
+    margin: 0;
+    padding: 0 3 0 6;
+    width: 100vw;
+    height: 100vh;
+    background-color: #d1ecae;
+    animation: fadeIn 5s ease 100ms;
+}
+
+p {font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-size: .8rem;}
+h2 {font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-size: 1.2rem;}
+
+.temperance {
+    position: absolute;
+    left: 12%;
+    top: 25%;
+    font-size: 1.8rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #65a32cbc;
+    opacity: 0;
+    animation-name: fadeIn;
+    animation-delay: 250ms;
+    animation-duration: 2.5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 2;
+    animation-fill-mode: forwards;
+}
+.fortitude {
+    position: absolute;
+    left: 41%;
+    top: 9%;
+    font-size: 1.2rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #672ca3bc;
+    opacity: 0;
+    animation-name: fadeIn;
+    animation-delay: 900ms;
+    animation-duration: 2.5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 2;
+    animation-fill-mode: forwards;
+}
+.justice {
+    position: absolute;
+    left: 38%;
+    top: 40%;
+    font-size: 2rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #a32c2cbc;
+    opacity: 0;
+    animation-name: fadeIn;
+    animation-delay: 750ms;
+    animation-duration: 2.5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 2;
+    animation-fill-mode: forwards;
+}
+.prudence {
+    position: absolute;
+    left: 31%;
+    top: 72%;
+    font-size: 1.5rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #2c3aa3bc;
+    opacity: 0;
+    animation-delay: 1.1s;
+    animation-duration: 2.5s;
+    animation-name: fadeIn;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 2;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;}
+    25% {
+        opacity: .6;}
+    50% {
+        opacity: .3;}
+    75% {
+        opacity: 9;}  
+    100% {
+        opacity: .75;}
+    }
+
+.ad1-Btm {
+    margin: 0;
+    padding: 3px;
+    display: block;
+    background-color: darkmagenta;
+    color: wheat;
+    position: absolute;
+    right: 3%;
+    top: 9.5vh;
+    border: 5px solid darkmagenta;
+    width: 20vw;
+    height: 24vh;
+    text-align: center;
+    z-index: 2;
+    opacity: 0;
+    animation-name: adFadeIn;
+    animation-duration: 2s;
+    animation-delay: 4.9s;
+    animation-fill-mode: forwards;
+}
+
+
+.ad1-Top {
+    margin: 0;
+    padding: 3px;
+    display: block;
+    position: absolute;
+    right: 3%;
+    top: 10vh;
+    background-color: darkmagenta;
+    width: 20vw;
+    height: 24vh;
+    z-index: 4;
+    opacity: 0;
+    animation: reduceBlock;
+    animation-duration: 5s;
+    animation-timing-function: ease-in;
+    animation-delay: 5s;
+    animation-iteration-count: 2;
+    animation-fill-mode: forwards;
+    transform-origin: bottom;
+}
+
+    .ad2-Btm {
+    margin: 0;
+    padding: 3px;
+    display: block;
+    background-color: darkslateblue;
+    color: lightsalmon;
+    position: absolute;
+    right: 3%;
+    top: 38.5vh;
+    border: 5px solid darkslateblue;
+    width: 20vw;
+    height: 24vh;
+    text-align: center;
+    z-index: 2;
+    opacity: 0;
+    animation-name: adFadeIn;
+    animation-duration: 2s;
+    animation-delay: 6.9s;
+    animation-fill-mode: forwards;
+}
+
+.ad2-Top {
+    margin: 0;
+    padding: 3px;
+    display: block;
+    position: absolute;
+    right: 3%;
+    top: 39vh;
+    background-color: darkslateblue;
+    width: 20vw;
+    height: 24vh;
+    z-index: 4;
+    opacity: 0;
+    animation: reduceBlock;
+    animation-duration: 5s;
+    animation-timing-function: ease-in;
+    animation-delay: 7s;
+    animation-iteration-count: 2;
+    animation-fill-mode: forwards;
+    transform-origin: bottom;
+}
+
+.ad3-Btm {
+    margin: 0;
+    padding: 2px;
+    display: block;
+    background-color: darkolivegreen;
+    color: lemonchiffon;
+    position: absolute;
+    right: 3%;
+    top: 67.5vh;
+    border: 5px solid darkolivegreen;
+    width: 20vw;
+    height: 24vh;
+    text-align: center;
+    z-index: 2;
+    opacity: 0;
+    animation-name: adFadeIn;
+    animation-duration: 2s;
+    animation-delay: 7.9s;
+    animation-fill-mode: forwards;
+}
+
+.ad3-Top {
+    margin: 0;
+    padding: 3px;
+    display: block;
+    position: absolute;
+    right: 3%;
+    top: 68vh;
+    background-color: darkolivegreen;
+    width: 20vw;
+    height: 24vh;
+    z-index: 4;
+    opacity: 0;
+    animation: reduceBlock;
+    animation-duration: 5s;
+    animation-timing-function: ease-in;
+    animation-delay: 8s;
+    animation-iteration-count: 2;
+    animation-fill-mode: forwards;
+    transform-origin: bottom;
+}
+
+@keyframes adFadeIn {
+    0% {opacity: 0;}
+    10% {opacity: 0;}
+    90% {opacity: .7;}
+    100% {opacity: 1;}
+}
+
+@keyframes reduceBlock {
+    0% {
+        opacity: 0;
+        transform: scaleY(1);
+    }
+    7% { opacity: .5;}
+    11% { opacity: 1;}
+    100% {
+        transform: scaleY(.01);
+    }
+}
+
+.blockTemprance {
+        display: block;
+        width: 184px;
+        height: 155px;
+        position: absolute;
+        left: 6%;
+        top: 20%;
+        background-color: white;
+        opacity: .5;
+        border: 2px;
+        border-radius: 10px;
+        margin: 0;
+        padding: 12px;
+        animation: 2s fadeIn ease 9s;
+        animation-fill-mode: forwards;
+        opacity: 0;
+        color: darkgreen;
+}
+
+.blockFortitude {
+        display: block;
+        width: 184px;
+        height: 210px;
+        position: absolute;
+        left: 38%;
+        top: 4%;
+        background-color: white;
+        opacity: .5;
+        border: 2px;
+        border-radius: 10px;
+        margin: 0;
+        padding: 12px;
+        animation: 2s fadeIn ease 12s;
+        animation-fill-mode: forwards;
+        opacity: 0;
+        color: rgb(89, 1, 89);
+}
+
+.blockJustice {
+        display: block;
+        width: 184px;
+        height: 155px;
+        position: absolute;
+        left: 32%;
+        top: 40%;
+        background-color: white;
+        opacity: .5;
+        border: 2px;
+        border-radius: 10px;
+        margin: 0;
+        padding: 12px;
+        animation: 2s fadeIn ease 14s;
+        animation-fill-mode: forwards;
+        opacity: 0;
+        color: darkred;
+}
+
+.blockPrudence {
+        display: block;
+        width: 184px;
+        height: 155px;
+        position: absolute;
+        left: 14%;
+        top: 60%;
+        background-color: white;
+        opacity: .5;
+        border: 2px;
+        border-radius: 10px;
+        margin: 0;
+        padding: 12px;
+        animation: 2s fadeIn ease 16s;
+        animation-fill-mode: forwards;
+        opacity: 0;
+        color: darkblue;
+
+}
+
+.parSmall {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: normal;
+    font-size: 1.1rem;
+    text-align: center;
+    line-height: 1.2;
+}
+
+.addressCopy {
+    position: absolute;
+    bottom: 4px;
+    width: 90vw;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: smaller;;
+    text-align: center;
+}
+
+.addressCopy a { text-decoration: none; color: green;}
+.addressCopy a:hover { color:goldenrod;}
+.addressCopy a:visited{ color: dimgray;}
